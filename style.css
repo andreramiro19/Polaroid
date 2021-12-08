@@ -254,7 +254,7 @@ a {
 /*========== Home Section ==========*/
 .home__container {
     display: grid;
-    padding: 20% 0 0 0;
+    padding: 12% 0 0 0;
     grid-template-columns: 55vh;
     grid-template-rows: 15vh 24vh;
     grid-template-areas: "a b"
@@ -318,15 +318,6 @@ a {
     font-weight: bold;
     font-size: 1.2rem;
 }
-
-@media screen and (max-width: 1150px) {
-    .home__container {
-        justify-items: center;
-        grid-template-rows: 25vh 42vh 20vh;
-        grid-template-areas: "a"
-                             "b"
-                             "c";
-    }
 
 @media screen and (max-width: 1150px) {
     .home__container {
