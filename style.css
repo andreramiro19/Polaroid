@@ -254,6 +254,7 @@ a {
 /*========== Home Section ==========*/
 .home__container {
     display: grid;
+    justify-items: center;
     padding: 260px 0 0 0;
     grid-template-rows: 15vh 30vh;
     grid-template-areas: "a b"
@@ -353,6 +354,12 @@ a {
 }
 
 @media screen and (max-width: 580px) {
+    .home__container {
+        grid-template-rows: 8vh 62vw 20vh;
+        grid-template-columns: 100vw;
+        padding: 40% 0 0 0;
+    }
+
     .home__info h1 {
         font-size:10vw
     }
@@ -366,20 +373,29 @@ a {
     }
 
     .home__img {
+        display: grid;
+        justify-items: center;
         width: 100%;
         height: auto;
+        min-width: initial;
+        min-height: initial;
     }
     
     .home__img img {
-        max-width: 100%;
-        height: 100%;
+        width: 66%;
+        height: auto;
+    }
+
+    .home__info__button span {
+        font-size: 4vw;
+        padding: 0 20px;
     }
 }
 
 /*========== Pink Section ==========*/
 .pink__container {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 180px;
     top: 180px;
     z-index: -1;
