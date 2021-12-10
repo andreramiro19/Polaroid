@@ -3,8 +3,9 @@
     "short-name": "pld",
     "start-url": ".",
     "background_color": "#FFFFFF",
-    "theme_color": "#3a3a3c",
+    "theme_color": "#654464",
     "display": "standalone",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "img/logo192.png",
