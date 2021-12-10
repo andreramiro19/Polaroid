@@ -3,7 +3,7 @@
     "short-name": "pld",
     "start-url": ".",
     "background_color": "#FFFFFF",
-    "theme_color": "#654464",
+    "theme_color": "#FEE0FA",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
